@@ -3,7 +3,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .first {
@@ -16,15 +18,46 @@ body {
         text-decoration: none;
         color: white;
         font-family: 'Roboto';
+        
+        margin: 0 10px;
     }
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    padding: 10px 20px;
+    box-sizing: border-box;
     
+}
+.headercontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .section {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     width: 100%;
+    max-width: 1200px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.image {
+    width: 150px;
+    height: 150px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.imageheader {
+    display: flex;
+    justify-content: center;
 }
