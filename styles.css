@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first {
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto';
+    }
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+}
