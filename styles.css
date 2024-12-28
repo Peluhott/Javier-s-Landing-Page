@@ -33,7 +33,7 @@ body {
 }
 .headercontent {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
@@ -46,18 +46,34 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
 }
-.image {
+
+.image1 {
     width: 150px;
     height: 150px;
+    border: 2px solid blue;
+    
+}
+.firstimage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
 }
 .images {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 .imageheader {
     display: flex;
     justify-content: center;
+}
+.left-content{
+    width: 400px;
+    word-wrap: break-word;
+    font-family: 'Roboto',sans-serif;
+    text-indent: 20px;
 }
