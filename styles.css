@@ -106,29 +106,31 @@ body {
     font-family: 'Roboto',sans-serif;
     text-indent: 20px;
 }
+
+
 .fourthcontainer {
     background-color: #d1d5db;
     height: 100px;
-    width: 600px;
+    width: 100%; 
+    max-width: 600px; 
     display: flex;
     color: #333333;
     justify-content: space-between;
     align-items: center;
     align-self: center;
     border-radius: 20px;
-    padding: 40px 40px;
+    padding: 20px; 
     margin: auto;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    
+}
 
+.fourthcontainer > * {
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    margin: 0 10px; 
 }
-@media (max-width: 768px) {
-    .fourthcontainer {
-        width: 100%;
-        padding: 20px;
-    }
-}
+
 .block1 {
     width: 300px;
 }
